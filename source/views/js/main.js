@@ -448,6 +448,7 @@ var resizePizzas = function(size) {
   }
 
   // Iterates through pizza elements on the page and changes their widths
+  // YH
   function changePizzaSizes(size) {
     var pizzaObj = document.getElementsByClassName("randomPizzaContainer");
     var pizzaLen = pizzaObj.length;
@@ -500,6 +501,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
 
 // Moves the sliding background pizzas based on scroll position
+// YH
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
